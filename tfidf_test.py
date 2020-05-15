@@ -89,7 +89,7 @@ f_t=hstack([f1,f2])
 loaded_model = pickle.load(open(filename, 'rb'))
 prediction=loaded_model.predict(f_t)
 result = loaded_model.score(f_t, yy1)
-# print(result*100)
+print('Test accuracy =', result*100)
 
 LABELS = B#{'contradiction': 0, 'neutral': 1, 'entailment': 2}
 file=open("tfidf.txt","w+")
