@@ -117,8 +117,8 @@ def test_logistic():
 
     loaded_model = pickle.load(open(filename, 'rb'))
     prediction=loaded_model.predict(f_t)
-    print("******************************")
-    print(len(prediction))
+#     print("******************************")
+#     print(len(prediction))
     result = loaded_model.score(f_t, yy1)
     print('Test accuracy =', result*100)
 
