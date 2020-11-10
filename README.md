@@ -1,4 +1,4 @@
-# Deep Learning assgnment 3
+# Deep Learning assignment 3
 
 This is the third assignment of Deep Learning course 2020. 
 
